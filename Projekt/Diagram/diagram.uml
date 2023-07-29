@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="528.4179195484705" y="0.0">Classes.Car</node>
+    <node x="513.0" y="952.5">GUI.CarSellingPanel</node>
+    <node x="276.0" y="1355.0">Classes.Seller</node>
+    <node x="503.7509559154299" y="1782.0">GUI.ApplicationManager</node>
+    <node x="1051.552425986842" y="255.0">GUI.CarPanelLayout</node>
+    <node x="987.62844586426" y="1377.5">GUI.SearchByAgePanel</node>
+    <node x="0.0" y="1366.5">GUI.WarehousePanel</node>
+    <node x="1214.0361842105262" y="2063.0">GUI.CarBuyingPanel</node>
+    <node x="971.0592263410933" y="864.0">GUI.SearchPanel</node>
+    <node x="691.62844586426" y="1399.5">GUI.SearchByBrandPanel</node>
+    <node x="264.375" y="985.5">Classes.Warehouse</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="GUI.SearchPanel" target="GUI.ApplicationManager">
+      <point x="67.25" y="215.5" />
+      <point x="1172.8092263410933" y="1325.0" />
+      <point x="1322.7947505482457" y="1325.0" />
+      <point x="1322.7947505482457" y="1752.0" />
+      <point x="687.0404295996404" y="1752.0" />
+      <point x="83.78947368421052" y="-105.5" />
+    </edge>
+    <edge source="GUI.SearchByAgePanel" target="GUI.ApplicationManager">
+      <point x="88.66666666666677" y="116.0" />
+      <point x="1209.2951125309269" y="1742.0" />
+      <point x="676.5667453891141" y="1742.0" />
+      <point x="73.31578947368416" y="-105.5" />
+    </edge>
+    <edge source="GUI.CarPanelLayout" target="Classes.Car">
+      <point x="0.0" y="-259.5" />
+      <point x="1249.552425986842" y="215.0" />
+      <point x="645.3409964715474" y="215.0" />
+      <point x="36.923076923076906" y="82.5" />
+    </edge>
+    <edge source="GUI.WarehousePanel" target="GUI.ApplicationManager">
+      <point x="85.33333333333337" y="127.0" />
+      <point x="213.33333333333337" y="1742.0" />
+      <point x="529.9351664417458" y="1742.0" />
+      <point x="-73.31578947368416" y="-105.5" />
+    </edge>
+    <edge source="GUI.CarBuyingPanel" target="Classes.Car">
+      <point x="56.0" y="-204.0" />
+      <point x="1396.0361842105262" y="2023.0" />
+      <point x="1458.052425986842" y="2023.0" />
+      <point x="1458.052425986842" y="205.0" />
+      <point x="657.6486887792398" y="205.0" />
+      <point x="49.23076923076928" y="82.5" />
+    </edge>
+    <edge source="GUI.ApplicationManager" target="Classes.Seller">
+      <point x="-41.8947368421052" y="-105.5" />
+      <point x="561.3562190733247" y="1712.0" />
+      <point x="456.0" y="1712.0" />
+      <point x="72.0" y="138.5" />
+    </edge>
+    <edge source="GUI.ApplicationManager" target="GUI.SearchByBrandPanel">
+      <point x="31.42105263157896" y="-105.5" />
+      <point x="634.6720085470089" y="1702.0" />
+      <point x="829.62844586426" y="1702.0" />
+      <point x="0.0" y="94.0" />
+    </edge>
+    <edge source="Classes.Seller" target="Classes.Warehouse">
+      <point x="27.0" y="-138.5" />
+      <point x="411.0" y="1335.0" />
+      <point x="416.625" y="1335.0" />
+      <point x="65.25" y="94.0" />
+    </edge>
+    <edge source="GUI.CarSellingPanel" target="Classes.Car">
+      <point x="-93.75" y="-127.0" />
+      <point x="544.25" y="844.0" />
+      <point x="554.625" y="844.0" />
+      <point x="554.625" y="235.0" />
+      <point x="596.1102272407783" y="235.0" />
+      <point x="-12.307692307692264" y="82.5" />
+    </edge>
+    <edge source="GUI.SearchByAgePanel" target="GUI.SearchPanel">
+      <point x="66.5" y="-116.0" />
+      <point x="1187.12844586426" y="1335.0" />
+      <point x="1127.97589300776" y="1335.0" />
+      <point x="22.416666666666742" y="215.5" />
+    </edge>
+    <edge source="GUI.SearchPanel" target="Classes.Car">
+      <point x="-100.875" y="-215.5" />
+      <point x="1004.6842263410933" y="804.0" />
+      <point x="994.3784458642599" y="804.0" />
+      <point x="994.3784458642599" y="235.0" />
+      <point x="620.7256118561629" y="235.0" />
+      <point x="12.307692307692378" y="82.5" />
+    </edge>
+    <edge source="GUI.WarehousePanel" target="Classes.Warehouse">
+      <point x="64.0" y="-127.0" />
+      <point x="192.0" y="1335.0" />
+      <point x="286.125" y="1335.0" />
+      <point x="-65.25" y="94.0" />
+    </edge>
+    <edge source="GUI.ApplicationManager" target="GUI.SearchByAgePanel">
+      <point x="62.84210526315792" y="-105.5" />
+      <point x="666.0930611785878" y="1732.0" />
+      <point x="1120.62844586426" y="1732.0" />
+      <point x="0.0" y="116.0" />
+    </edge>
+    <edge source="GUI.SearchByBrandPanel" target="GUI.ApplicationManager">
+      <point x="92.0" y="94.0" />
+      <point x="921.62844586426" y="1712.0" />
+      <point x="645.1456927575352" y="1712.0" />
+      <point x="41.89473684210532" y="-105.5" />
+    </edge>
+    <edge source="GUI.SearchByBrandPanel" target="GUI.SearchPanel">
+      <point x="69.0" y="-94.0" />
+      <point x="898.62844586426" y="1335.0" />
+      <point x="1038.3092263410933" y="1335.0" />
+      <point x="-67.25" y="215.5" />
+    </edge>
+    <edge source="GUI.CarSellingPanel" target="GUI.ApplicationManager">
+      <point x="93.75" y="127.0" />
+      <point x="731.75" y="1335.0" />
+      <point x="630.1811424595144" y="1335.0" />
+      <point x="630.1811424595144" y="1682.0" />
+      <point x="613.7246401259563" y="1682.0" />
+      <point x="10.473684210526358" y="-105.5" />
+    </edge>
+    <edge source="GUI.ApplicationManager" target="Classes.Car">
+      <point x="-31.42105263157896" y="-105.5" />
+      <point x="571.829903283851" y="1702.0" />
+      <point x="502.50000000000006" y="1702.0" />
+      <point x="502.50000000000006" y="225.0" />
+      <point x="583.8025349330859" y="225.0" />
+      <point x="-24.61538461538464" y="82.5" />
+    </edge>
+    <edge source="GUI.ApplicationManager" target="GUI.CarSellingPanel">
+      <point x="-10.473684210526244" y="-105.5" />
+      <point x="592.7772717049037" y="1662.0" />
+      <point x="609.2337740384618" y="1662.0" />
+      <point x="609.2337740384618" y="1335.0" />
+      <point x="606.75" y="1335.0" />
+      <point x="-31.25" y="127.0" />
+    </edge>
+    <edge source="GUI.CarBuyingPanel" target="GUI.CarPanelLayout">
+      <point x="0.0" y="-204.0" />
+      <point x="1340.0361842105262" y="2033.0" />
+      <point x="1374.0361842105262" y="2033.0" />
+      <point x="1374.0361842105262" y="844.0" />
+      <point x="1348.552425986842" y="844.0" />
+      <point x="99.0" y="259.5" />
+    </edge>
+    <edge source="GUI.ApplicationManager" target="GUI.WarehousePanel">
+      <point x="-83.7894736842104" y="-105.5" />
+      <point x="519.4614822312195" y="1752.0" />
+      <point x="128.0" y="1752.0" />
+      <point x="0.0" y="127.0" />
+    </edge>
+    <edge source="GUI.ApplicationManager" target="GUI.CarBuyingPanel">
+      <point x="74.625" y="105.5" />
+      <point x="677.8759559154299" y="2013.0" />
+      <point x="1312.0361842105262" y="2013.0" />
+      <point x="-28.0" y="-204.0" />
+    </edge>
+    <edge source="GUI.CarSellingPanel" target="GUI.CarPanelLayout">
+      <point x="93.75" y="-127.0" />
+      <point x="731.75" y="824.0" />
+      <point x="1150.552425986842" y="824.0" />
+      <point x="-99.0" y="259.5" />
+    </edge>
+    <edge source="GUI.WarehousePanel" target="Classes.Car">
+      <point x="-64.0" y="-127.0" />
+      <point x="64.0" y="185.0" />
+      <point x="534.5717657023167" y="185.0" />
+      <point x="-73.84615384615387" y="82.5" />
+    </edge>
+    <edge source="GUI.SearchPanel" target="GUI.CarPanelLayout">
+      <point x="100.875" y="-215.5" />
+      <point x="1206.4342263410933" y="844.0" />
+      <point x="1282.552425986842" y="844.0" />
+      <point x="33.0" y="259.5" />
+    </edge>
+    <edge source="GUI.CarBuyingPanel" target="GUI.ApplicationManager">
+      <point x="-84.0" y="-204.0" />
+      <point x="1256.0361842105262" y="2033.0" />
+      <point x="578.3759559154299" y="2033.0" />
+      <point x="-24.875" y="105.5" />
+    </edge>
+    <edge source="Classes.Warehouse" target="Classes.Car">
+      <point x="-43.5" y="-94.0" />
+      <point x="307.875" y="844.0" />
+      <point x="345.875" y="844.0" />
+      <point x="345.875" y="195.0" />
+      <point x="546.879458010009" y="195.0" />
+      <point x="-61.53846153846155" y="82.5" />
+    </edge>
+    <edge source="Classes.Seller" target="Classes.Car">
+      <point x="81.0" y="-138.5" />
+      <point x="465.0" y="1335.0" />
+      <point x="448.875" y="1335.0" />
+      <point x="448.875" y="215.0" />
+      <point x="571.4948426253936" y="215.0" />
+      <point x="-36.923076923076906" y="82.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.3759015697921086" x="718.0" y="1158.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
